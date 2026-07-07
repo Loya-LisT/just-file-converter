@@ -147,11 +147,13 @@ header {
     align-items: center;
     gap: 16px;
     margin-top: 16px;
+    background: light-dark(var(--primary-muted), var(--bg-dark))
 }
 
 .converter__desc-lower {
     font-weight: normal;
     font-size: 14px;
+    background: light-dark(var(--primary-muted), var(--bg-dark))
 }
 
 .converter__dropzone {
