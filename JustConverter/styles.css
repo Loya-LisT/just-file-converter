@@ -139,6 +139,10 @@ header {
     align-items: center;
 }
 
+.converter__icon {
+    background: light-dark(var(--primary-muted), var(--bg-dark));
+}
+
 .converter__desc-upper {
     font-weight: 600;
     font-size: 22px;
@@ -147,23 +151,17 @@ header {
     align-items: center;
     gap: 16px;
     margin-top: 16px;
-    background: light-dark(var(--primary-muted), var(--bg-dark))
+    background: light-dark(var(--primary-muted), var(--bg-dark));
 }
 
 .converter__desc-lower {
     font-weight: normal;
     font-size: 14px;
-    background: light-dark(var(--primary-muted), var(--bg-dark))
+    background: light-dark(var(--primary-muted), var(--bg-dark));
 }
 
-.converter__dropzone {
-    padding: 1.5rem;
-    border: 2px dashed var(--border);
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    background: var(--bg);
+.converter__file-size-text {
+    background: light-dark(var(--primary-muted), var(--bg-dark));
 }
 
 .upload-button {
