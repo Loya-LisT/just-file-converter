@@ -2,7 +2,7 @@
 <html lang="ru">
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1.2">
     <style>
         
     </style>
@@ -52,23 +52,14 @@
     <label class="converter">
         <img class="converter__icon" src="images/cloud.svg" height="128" width="auto">
         <p class="converter__desc-upper">Перетащите файл сюда<br><span class="converter__desc-lower">или нажмите для загрузки</span></p>
-        <span class="upload-button"><img class="upload-button-icon" src="icons/">Выбрать файл</span>
+        <button id="upload-button"><img class="upload-button-icon">Выбрать файл</button>
         <input id="converter__file-input" type="file" hidden>
         <p class="converter__file-size-text">Поддерживаются любые типы файлов размером до 2 ГБ</p>
     </label>
-<!-- 
-    <section class="hero">
-        <h1 class="hero__title">Fast. Private. Universal.</h1>
-        <p class="hero__desc">Convert any files instantly and securely within your browser, keeping your data entirely on your device.</p>
-    </section>
 
-    <section class="converter">
-        <label class="converter__dropzone">
-            <p class="dropzone-desc">Drag & drop file(s) here<br><span class="dropzone-desc-or">or</span></p>
-            <span class="upload-button">Upload files</span>
-            <input id="converter__file-input" type="file" hidden>
-        </label>
-    </section> -->
+    <dialog id="file-dialog">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quis quidem consequatur voluptatibus iste quaerat laboriosam animi mollitia dignissimos tempora. Vitae aperiam qui sequi voluptatem quis illo tenetur, sint officia?
+    </dialog>
     
 </body>
 </html>
